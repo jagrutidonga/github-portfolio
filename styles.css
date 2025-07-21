@@ -6,71 +6,75 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f9f9f9;
+  background: #f4f6f8;
   color: #333;
   line-height: 1.6;
 }
 
 header {
-  background: #0c2233;
+  background: linear-gradient(135deg, #004b8d, #007acc);
   color: #fff;
-  padding: 30px 20px;
   text-align: center;
+  padding: 60px 20px;
 }
 
 header h1 {
-  font-size: 2rem;
-  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+nav {
+  margin-top: 20px;
 }
 
 nav a {
-  color: #fff;
   margin: 0 15px;
+  color: #ffcc00;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
-#hero {
-  background: #007acc;
-  color: white;
-  padding: 60px 20px;
-  text-align: center;
-}
-
 section {
   max-width: 900px;
-  margin: 40px auto;
+  margin: 60px auto;
   padding: 0 20px;
 }
 
 section h2 {
   font-size: 1.8rem;
   margin-bottom: 20px;
-  color: #0c2233;
+  color: #004b8d;
 }
 
 ul {
-  list-style: disc inside;
-  margin-bottom: 20px;
+  list-style-type: none;
+  padding-left: 0;
 }
 
-.project {
+ul li {
+  padding: 8px 0;
+}
+
+.card {
   background: #fff;
+  border-left: 4px solid #007acc;
   padding: 20px;
-  margin-top: 20px;
-  border-left: 5px solid #007acc;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  border-radius: 6px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
 }
 
 footer {
-  background: #0c2233;
-  color: #aaa;
   text-align: center;
+  background: #004b8d;
+  color: #ccc;
   padding: 20px;
-  margin-top: 40px;
 }
